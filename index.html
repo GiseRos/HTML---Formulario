@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/2021-12-28.png" alt="Logo del hotel">
+        <h1>Realice su reserva online aquí</h1>
+    </header>
+
+    <main>
+        <h2>Complete sus datos personales:</h2>
+        <form action="/" method="post">
+            <label>Nombre:
+                <input type="text" name="nombre" id="nombre" placeholder="Escribe su nombre completo">
+            </label>
+            <br>
+            <label>Apellido:
+                <input type="text" name="surname" id="surname" placeholder="Escribe su apellido">
+            </label>
+            <br>
+            <label>Nro. de documento:
+                <input type="text" name="dni" id="dni" placeholder="Escribe su número de documento" maxlength="8">
+            </label>
+            <br>
+            <label>Correo electrónico:
+                <input type="email" name="email" id="email" placeholder="Escribe su correo electrónico">
+            </label>
+            <br>
+            <label>Confirme su correo electrónico:
+                <input type="email" name="email" id="email" placeholder="Confirme su correo electrónico">
+            </label>
+            <br>
+            <img src="" alt="">
+            <label>
+                <input type="number" name="adultos" id="adultos" value="adultos"> Cantidad de adultos
+            </label>
+            <br>
+            <label>
+                <input type="number" name="ninios" id="ninios" value="ninios"> Cantidad de niños/as
+            </label>
+            <br>
+            <h2>Ingrese los servicios que desea contratar:</h2>
+            <label>
+                <input type="number" name="individual" id="individual" value="individual">Habitación individual
+            </label>
+            <br>
+            <label>
+                <input type="number" name="doble" id="doble" value="doble">Habitación doble
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="desayuno" id="desayuno" value="desayuno" checked>Desayuno
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="almuerzo" id="almuerzo" value="almuerzo">Almuerzo
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="cena" id="cena" value="cena">Cena
+            </label>
+            <br>
+            <h3>¿Alguna de las personas a hospedarse tiene alguna restricción alimentaria?</h3>
+            <br>
+            <label>
+                <input type="radio" name="eleccion" id="si" required>Si
+            </label>
+            <label>
+                <input type="radio" name="eleccion" id="no" required>No
+            </label>
+            <br>
+            <h4>¿Cuál?</h4>
+            <label>
+                <input type="checkbox" name="diabetes" id="diabetes" value="diabetes">Diabetes
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="celiaquia" id="celiaquia" value="celiaquia">Celiaquía
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="vegetarianismo" id="vegetarianismo" value="vegetarianismo">Vegetarianismo
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="veganismo" id="veganismo" value="veganismo">Veganismo
+            </label>
+            <br>
+            <h4>Otro:</h4>
+            <textarea name="otro" id="otro" cols="30" rows="10"></textarea>
+            <br>
+            <h2>¡Gracias por elegirnos!</h2>
+            <br>
+            <button>Enviar</button>
+            <footer>
+                <p>Seguinos en nuestras redes sociales: <a href="http:facebook.com">Ohana Hotel Facebook</a></p>
+                <br>
+                <p>&copy;GisellaRos for NUCBA</p>
+            </footer>
+        </form>
+        <label>
+        </label>
+    </main>
+</body>
+</html>
